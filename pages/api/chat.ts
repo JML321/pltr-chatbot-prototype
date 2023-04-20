@@ -24,7 +24,7 @@ export default async function handler(
   const sanitizedQuestion = question.trim().replaceAll('\n', ' ');
 
   try {
-    const directory = "/Users/justinscomputer/Coding/Palantir/modified-gpt-chatbot-palantir-website/db"; 
+    const directory = "./db"; 
 
     const vectorStore = await HNSWLib.load(
       directory,
