@@ -7,3 +7,5 @@ Differences from that project:
 2) used HNSWLib, instead of Pinecone
 3) inferior model, not gpt-4 but gpt-3.5-turbo
 4) When sources returned for an answer, the source name is a url to the part of the website where that information came from 
+
+Use this link to see the project live: https://pltr-chatbot-1.herokuapp.com/
